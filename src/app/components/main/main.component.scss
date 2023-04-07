@@ -1,0 +1,91 @@
+  /* Set height of the grid so .sidenav can be 100% (adjust if needed) 
+  .row.content {height: 1500px}
+    
+  /* Set gray background color and 100% height 
+  .sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding 
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid 
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height: auto;} 
+  }
+
+  .nav-tabs .nav-item .nav-link {
+    background-color: #0080FF;
+    color: #FFF;
+  }
+  
+  .nav-tabs .nav-item .nav-link.active {
+    color: #0080FF;
+  }
+  
+  .tab-content {
+    border: 1px solid #dee2e6;
+    border-top: transparent;
+    padding: 15px;
+  }
+  
+  .tab-content .tab-pane {
+    background-color: #FFF;
+    color: #0080FF;
+    min-height: 200px;
+    height: auto;
+  }
+
+  .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  a {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  a img {
+    height: 50px;
+    width: 50px;
+    filter: brightness(1.5) saturate(1.2);
+  }
+  */  
+
+  .nav-link.active {
+    color: #0080FF;
+  }
+
+  a {
+    border: none;
+    background-color: rgba(67, 11, 172, 0.2);
+    //margin: 0 10px;
+    cursor: pointer;
+    //border-radius: 10px;
+    //box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }

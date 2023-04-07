@@ -30,9 +30,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/leaflet/dist/leaflet.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/leaflet/dist/leaflet.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -100,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5ec0c337-1d4c-4e2e-8ed8-9827e361d41c"
   }
 }

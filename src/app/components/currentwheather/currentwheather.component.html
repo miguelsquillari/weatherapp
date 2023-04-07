@@ -1,0 +1,35 @@
+<br>
+<div class="container" style="background-color: inherit;">
+
+  <!--'EEEE, MMMM d, y, h:mm:ss a zzzz' -->
+  <p class="phrase">{{curDate | date: 'EEEE  d'}}</p>
+  <div class="d-flex " style="height:150px">
+    <img src="{{WeatherIcon}}"/>        
+    <div class="p-2 ">       
+       <div class="p-2  align-self-start">
+          <p class="phrase"> Max: {{dayMax}}º </p>
+        </div>
+    <div class="p-0  align-self-center"></div>
+    <div class="p-2  align-self-end">
+      <p class="phrase">Min: {{dayMin}}º</p></div>
+    </div>
+  </div>
+<br>
+<br>
+  <div class="container" style="height:150px; align-items: center; width: 100%;">     
+      <p>{{currentTemp}} º</p>              
+      <p class="phrase">{{WeatherIconPhrase}}</p>    
+  </div>
+
+<button type="button" class="btn btn-outline-secondary" (click)="details(this)">{{btnText}}</button>
+
+<div class="container" style="background-color: inherit;">
+  <div *ngIf="extendedForecastDet">
+    <app-extended-forecats></app-extended-forecats>
+  </div>
+  
+  <div *ngIf="!extendedForecastDet">
+    <app-chart-extented-forecast [chartSeries]="chartSeries"></app-chart-extented-forecast>
+  </div>
+</div>
+</div>

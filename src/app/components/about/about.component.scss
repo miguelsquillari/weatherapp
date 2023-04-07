@@ -1,0 +1,27 @@
+.glass{
+    color: #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.2 );
+    border: solid 1px rgba(255,255,255,.3);
+    background-clip: padding-box;
+    backdrop-filter: blur(10px );
+  }
+  
+.fondo{ background:linear-gradient(135deg, #d4c4e6 0%,#dfbfe2 100%);
+     
+}
+
+a{
+    color: white;
+}
+
+
+p {
+    color: white;
+}
+
+
+.p2 {
+    text-align: right;
+}

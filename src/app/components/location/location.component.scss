@@ -1,0 +1,25 @@
+.bgloc{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    align-items: center;    
+    color: azure;    
+}
+
+p {
+    color: azure;
+    font-size:12px;
+}
+
+.svg-icon {
+    display: inline-flex;
+    align-self: center;
+
+  }.svg-icon svg {
+    height:1em;
+    width:1em;
+
+  }.svg-icon.svg-baseline svg {
+    top: .15em;
+    position: relative;
+  }

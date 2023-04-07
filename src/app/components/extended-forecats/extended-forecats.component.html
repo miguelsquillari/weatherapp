@@ -1,0 +1,13 @@
+
+<div class="container" style="background-color: inherit; height:420px; align-items: center; width: 100%;">     
+    <div >  
+        <hr class="solid">  
+        <!--<p>Extended forecast: next 5 days</p>    -->
+
+      </div>
+      <div *ngFor="let fcd of forecastArray" style="background-color: inherit;">
+        <img src="{{fcd.iconPath}}"/>
+           {{fcd.date | date: 'EEEE'}} &nbsp; {{fcd.dayMax}} /  {{fcd.dayMin}}
+      </div>
+</div>                            
+                        

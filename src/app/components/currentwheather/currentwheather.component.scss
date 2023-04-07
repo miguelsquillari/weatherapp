@@ -1,0 +1,41 @@
+/*
+.bgimage{
+    background-image:url("https://images.pexels.com/photos/3720240/pexels-photo-3720240.jpeg");    
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;    
+    width: 100dvw;
+    height: 100dvh;    
+   // opacity: 0.5;
+}
+
+*/
+.glass{
+    color: #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.2 );
+    border: solid 1px rgba(255,255,255,.3);
+    background-clip: padding-box;
+    backdrop-filter: blur(10px );
+  }
+/*
+.baseDia{
+ // width: 100dvw;
+ // height: 100dvh;  
+}
+*/
+
+p{
+  font-size: 52px;
+  color:#ecf0f1;
+  font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+  text-align: center;
+}
+
+.phrase{
+  font-size: 24px;
+  color:#ecf0f1;
+  font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;  
+  text-align: center;
+}
