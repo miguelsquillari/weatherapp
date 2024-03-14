@@ -35,7 +35,10 @@
             ],
             "scripts": [
               "node_modules/leaflet/dist/leaflet.js"
-            ]
+            ],
+            "allowedCommonJsDependencies": [
+              "lodash"
+           ]
           },
           "configurations": {
             "production": {
